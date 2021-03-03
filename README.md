@@ -47,7 +47,7 @@ Follow The Steps Below!
 > pkg upgrade -y
 > pkg install python -y
 > pkg install git -y
-> git clone https://github.com/Fxc7/termux-bot-wa
+> git clone https://github.com/X-PrCx12/termux-bot-wa
 > cd termux-bot-wa
 > bash install.sh
 > npm start / node Fxc7.js
