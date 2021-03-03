@@ -107,9 +107,9 @@ const { wait, simih, getBuffer, h2k, banner, generateMessageID, getGroupAdmins, 
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Farhan\n'
-            + 'ORG:Owner FXC7;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=628311800241:+62 831-1800-241\n'
+            + 'FN:EPEP\n'
+            + 'ORG:Owner;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6281260899819:+62 812-6089-9819\n'
             + 'END:VCARD'
 
 function kyun(seconds){
@@ -371,7 +371,7 @@ async function starts() {
 			const isBanned = ban.includes(sender)
 			const isPrem = premium.includes(sender) || isOwner 
 			const FarhanGans = ["0@s.whatsapp.net"]
-			const FarhanGans2 = " ~ 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐅𝐚𝐫𝐡𝐚𝐧𝐗𝐂𝐨𝐝𝐞𝟳"
+			const FarhanGans2 = "MARK BAPERAN ASU"
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 		}
@@ -546,7 +546,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 			if (authorname != undefined) { } else { authorname = groupName }
 			
 			switch(command) { 
-		case 'mutualan':
+		case 'partner':
 			if (!isUser) return reply(mess.only.userB)
 			if (isGroup) return  reply( 'Command ini tidak bisa digunakan di dalam grup,silahkan gunakan di private chat bot')
 			const anug = fs.readFileSync('./database/json/user.json')
